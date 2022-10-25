@@ -22,32 +22,32 @@ function ContactMe({}: Props) {
     return(
         <div className='h-screen flex relative flex-col text-center md:text-left md:flex-row
         max-w-7xl px-10 justify-evenly mx-auto items-center '>
-            <h3 className='absolute top-24 uppercase tracking-[20px] text-gray-500 text-2xl '>
+            <h3 className='absolute top-14 uppercase tracking-[20px] text-gray-500 text-2xl '>
                 Contact
             </h3>
 
-            <div className='flex flex-col space-y-10'>
-                <h4 className='text-4xl font-semibold text-center'>
+            <div className='flex flex-col space-y-5 mt-18  '>
+                <h4 className='mt-16 text-2xl font-semibold text-center'>
                     I have got just what you need.{" "}
                     <span className=' decoration-[#F7AB0A]/50 underline'>Lets Talk.</span>
                 </h4>
 
 
 
-                <div className='space-y-10'>
+                <div className='space-y-5'>
                     <div className='flex items-center space-x-5 justify-center'>
-                        <PhoneIcon className='text-[#F7AB0A] h-7 w-7 animate-pulse'/>
-                        <p className='text-2xl'>+07754110440</p>
+                        <PhoneIcon className='text-[#F7AB0A] h- w-7 animate-pulse'/>
+                        <p className='text-1xl'>+07754110440</p>
                     </div>
 
                     <div className='flex items-center space-x-5 justify-center'>
                         <EnvelopeIcon className='text-[#F7AB0A] h-7 w-7 animate-pulse'/>
-                        <p className='text-2xl'>aleardotambi6@gmail.com</p>
+                        <p className='text-1xl'>aleardotambi6@gmail.com</p>
                     </div>
 
                     <div className='flex items-center space-x-5 justify-center'>
                         <MapIcon className='text-[#F7AB0A] h-7 w-7 animate-pulse'/>
-                        <p className='text-2xl'>15 foxhill close</p>
+                        <p className='text-1xl'>Toxteth, Liverpool</p>
                     </div>
                 </div>
 
