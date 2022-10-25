@@ -52,11 +52,11 @@ function ContactMe({}: Props) {
                 </div>
 
                 <form onSubmit={handleSubmit(onSubmit)}
-                     className='flex flex-col space-y-2 mx-auto mx-auto'
+                     className='flex flex-col space-y-2 mx-auto max-w-xs '
                      >
-                        <div className='flex space-x-2'>
-                            <input {...register('name')} placeholder='Name' className='contactInput' type="text" />
-                            <input {...register('email')} placeholder='Email' className='contactInput' type="email" />
+                        <div className='flex space-x-2 '>
+                            <input {...register('name')} placeholder='Name' className='contactInput w-40' type="text" />
+                            <input {...register('email')} placeholder='Email' className='contactInput w-36' type="email" />
                         </div>
                     
                     <input {...register('subject')} placeholder='Subject' className='contactInput' type="text" />
