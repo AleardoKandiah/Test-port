@@ -26,7 +26,7 @@ function ContactMe({}: Props) {
                 Contact
             </h3>
 
-            <div className='flex flex-col space-y-5 mt-18 w-18 '>
+            <div className='flex flex-col space-y-5 mt-18 '>
                 <h4 className='mt-16 text-2xl font-semibold text-center'>
                     I have got just what you need.{" "}
                     <span className=' decoration-[#F7AB0A]/50 underline'>Lets Talk.</span>
@@ -52,7 +52,7 @@ function ContactMe({}: Props) {
                 </div>
 
                 <form onSubmit={handleSubmit(onSubmit)}
-                     className='flex flex-col space-y-2 w-fit mx-auto'
+                     className='flex flex-col space-y-2 mx-auto mx-auto'
                      >
                         <div className='flex space-x-2'>
                             <input {...register('name')} placeholder='Name' className='contactInput' type="text" />
