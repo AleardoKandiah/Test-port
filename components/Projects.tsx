@@ -36,14 +36,14 @@ function Projects({}: Props) {
                     <div className='space-y-1 px-0 md:px-10 max-w-3xl'>
                         <h4 className='text-2xl font-semibold text-center'>
                             <span className='underline decoration-[#F7AB0A]/50'>
-                            Case Study 1 of 5:
+                            Case Study 1 of 4:
                             </span>{" "}
-                            UPS clone
+                            Amazon Clone
                         </h4>
 
                         <p className='text-l text-center md:text-left'>
-                            Lorem ipsum dolor sit amet consectetur adipisicing 
-                            elit. Ipsum corrupti a dolore numquam atque ea
+                            Amazon 2.0 app has a Log In and Log Out Authentification with Google.
+                            It is designed to look exaclty like amazon and even has Cart functionality and stripe checkout!.
                         </p>
                     </div> 
                 </div>
@@ -65,19 +65,51 @@ function Projects({}: Props) {
                     <div className='space-y-1 px-0 md:px-10 max-w-3xl'>
                         <h4 className='text-2xl font-semibold text-center'>
                             <span className='underline decoration-[#F7AB0A]/50'>
-                            Case Study 1 of 5:
+                            Case Study 2 of 4:
                             </span>{" "}
-                            UPS clone
+                            The Coding API
                         </h4>
 
                         <p className='text-l text-center md:text-left'>
-                            Lorem ipsum dolor sit amet consectetur adipisicing 
-                            elit. Ipsum corrupti a dolore numquam atque ea
+                        Search for coding resources by relevant keywords.
+                         This API serves educational content for 
+                        a wide variety of computer science topics,
+                         languages and technologies relevant to web development.
                         </p>
                     </div> 
                 </div>
 
                 {/* THREE */}
+                <div className='w-screen flex-shrink-0 snap-center snap-m
+                    flex flex-col space-y-5 items-center justify-center p-20
+                    md:p-44 h-scren'>
+                    <motion.img
+                        initial={{ y:-300, opacity: 0}}
+                        whileInView={{ opacity: 1, y:0 }}
+                        transition={{ duration: 1.2 }}
+                        viewport={{ once: true}}
+                     src="https://cdn.discordapp.com/attachments/649311144342978610/1034808000357093416/laptop_1.png"
+                    alt="" 
+                    />
+
+                    <div className='space-y-1 px-0 md:px-10 max-w-3xl'>
+                        <h4 className='text-2xl font-semibold text-center'>
+                            <span className='underline decoration-[#F7AB0A]/50'>
+                            Case Study 3 of 4:
+                            </span>{" "}
+                            Restaurant Menu
+                        </h4>
+
+                        <p className='text-l text-center md:text-left'>
+                            This is a beautiful restaurant menu template that contains
+                            an artistic design. The hero page consists of a beautiful demo 
+                            of the restaurant along with its various cuisine items.
+
+                        </p>
+                    </div> 
+                </div>
+
+                {/* FOUR  */}
                 <div className='w-screen flex-shrink-0 snap-center snap-m
                     flex flex-col space-y-5 items-center justify-center p-20
                     md:p-44 h-screen'>
@@ -93,42 +125,14 @@ function Projects({}: Props) {
                     <div className='space-y-1 px-0 md:px-10 max-w-3xl'>
                         <h4 className='text-2xl font-semibold text-center'>
                             <span className='underline decoration-[#F7AB0A]/50'>
-                            Case Study 1 of 5:
+                            Case Study 4 of 4:
                             </span>{" "}
-                            UPS clone
+                            Ordle
                         </h4>
 
                         <p className='text-l text-center md:text-left'>
-                            Lorem ipsum dolor sit amet consectetur adipisicing 
-                            elit. Ipsum corrupti a dolore numquam atque ea
-                        </p>
-                    </div> 
-                </div>
-
-                {/* FOUR  */}
-                <div className='w-screen flex-shrink-0 snap-center snap-m
-                    flex flex-col space-y-5 items-center justify-center p-20
-                    md:p-44 h-screen'>
-                    <motion.img
-                        initial={{ y:-300, opacity: 0}}
-                        whileInView={{ opacity: 1, y:0 }}
-                        transition={{ duration: 1.2 }}
-                        viewport={{ once: true}}
-                     src="https://user-images.githubusercontent.com/63458393/173197662-7ab3b341-ae7f-4972-b786-2247637e3725.png"
-                    alt="" 
-                    />
-
-                    <div className='space-y-1 px-0 md:px-10 max-w-3xl'>
-                        <h4 className='text-2xl font-semibold text-center'>
-                            <span className='underline decoration-[#F7AB0A]/50'>
-                            Case Study 1 of 5:
-                            </span>{" "}
-                            UPS clone
-                        </h4>
-
-                        <p className='text-l text-center md:text-left'>
-                            Lorem ipsum dolor sit amet consectetur adipisicing 
-                            elit. Ipsum corrupti a dolore numquam atque ea
+                        Ordle, a Typescript/Tailwind app, is a word guessing game that 
+                        is inspired by the popular wordle!
                         </p>
                     </div> 
                 </div>         
