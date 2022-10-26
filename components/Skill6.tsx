@@ -3,19 +3,20 @@ import { motion } from 'framer-motion'
 
 type Props = {
     directionLeft?: boolean;
+
 }
 
-function Skill({ directionLeft }: Props) {
+function Skill6({directionLeft}: Props) {
   return (
     <div className='group relative flex cursor-pointer'>
         <motion.img
             initial={{
-                x : directionLeft ? -200: 200,
+                x : directionLeft ? +200: -200,
                 opacity : 0,
             }}
             transition={{ duration: 1 }}
             whileInView ={{ opacity: 1, x: 0 }}
-            src="https://cdn.discordapp.com/attachments/649311144342978610/1034758603770449990/unknown.png"
+            src="https://cdn.discordapp.com/attachments/649311144342978610/1034776258699083826/unknown.png"
             className='rounded-full border border-gray-500 object-cover w-16 h-16 
             md:w-18 md:h-18 xl:w-22 xl:h-22 filter group-hover:grayscale transition duration-300 ease-in-out'
         />        
@@ -27,5 +28,11 @@ function Skill({ directionLeft }: Props) {
         </div>
     </div>
   )
-} 
-export default Skill
+}
+
+export default Skill6
+
+
+
+
+
