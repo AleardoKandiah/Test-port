@@ -27,7 +27,7 @@ function ContactMe({}: Props) {
 
             <div className='flex flex-col space-y-5 mt-18 '>
                 <h4 className='mt-16 text-2xl font-semibold text-center'>
-                    I have got just what you need.{" "}
+                    I have got just what you need?{" "}
                     <span className=' decoration-[#F7AB0A]/50 underline'>Lets Talk.</span>
                 </h4>
 
@@ -46,7 +46,7 @@ function ContactMe({}: Props) {
 
                     <div className='flex items-center space-x-5 justify-center'>
                         <MapIcon className='text-[#F7AB0A] h-7 w-7 animate-pulse'/>
-                        <p className='text-1xl'>Toxteth, Liverpool</p>
+                        <p className='text-1xl'>Liverpool</p>
                     </div>
                 </div>
 
