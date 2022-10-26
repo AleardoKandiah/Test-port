@@ -34,17 +34,32 @@ export default function Header({}: Props) {
 
 
             <SocialIcon
-            url="https://www.twitter.com/Aleardo21"
+            url="https://www.linkedin.com/in/aleardo-kandiah-504959195/"
             fgColor='gray'
             bgColor='transparent'
             />
 
 
             <SocialIcon
-            url="https://www.twitter.com/Aleardo21"
+            url="https://github.com/AleardoKandiah"
             fgColor='gray'
             bgColor='transparent'
             />
+
+
+            <SocialIcon
+            url="https://aleardo.hashnode.dev/towards-medical-artificial-intelligence"
+            fgColor='gray'
+            bgColor='transparent'
+            />
+
+
+            <SocialIcon
+            url="https://codepen.io/aleardokandiah"
+            fgColor='gray'
+            bgColor='transparent'
+            />
+
         </motion.div>
 
             <Link href='#contact'> 

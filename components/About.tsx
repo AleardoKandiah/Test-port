@@ -12,7 +12,7 @@ export default function About({}: Props) {
     className='flex flex-col relative h-screen text-center
      md:flex-row md:text-left max-w-7xl px-10 justify-evenly mx-auto
      items-center'>
-        <h3 className='absolute top-16 uppercase tracking-[20px] text-gray-500 text-2xl'
+        <h3 className='absolute top-14 uppercase tracking-[20px] text-gray-500 text-2xl'
         >About</h3>
 
         <motion.img
@@ -30,16 +30,16 @@ export default function About({}: Props) {
         object-cover md:rounded-lg md:h-95 md:w-64 xl:w-[500px] xl:h-[600px]'
         />
         <div className='space-y-10 px-0 md:px-10'>
-            <h4 className='text-4xl font-semibold'>
+            <h4 className='text-3xl font-semibold'>
                 Here is a{" "}
                 <span className='underline decoration-[#F7AB0A]/50'>little</span>{" "}
                 background
             </h4>
-            <p className='text-base'>Lorem ipsum dolor sit amet consectetur
-             adipisicing elit. Veritatis, rerum vel. Eius aliquam 
-             voluptas delectus! Illum officiis iste obcaecati
-              laudantium architecto voluptatibus eum quo minus,
-               delectus ratione labore nostrum molestiae!</p>
+            <p className='text-base'>I love to create web & mobile applications with immersive
+            user experience using the latest technologies. Over the years, I have gained
+            diverse experience through developing applications using different tech stacks. 
+            Learnt to be open-minded, willing to pick up new skills and
+            currently on the lookout to apply the acquired gamut of skills in a challenging role.</p>
         </div>
      </motion.div>
   )
