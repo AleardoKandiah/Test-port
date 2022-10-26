@@ -20,7 +20,7 @@ function Projects({}: Props) {
         <div className='relative w-full flex overflow-x-scroll overflow-y-hidden
         snap-x snap-mandatory z-20  scrollbar-thin scrollbar-track-gray-400/20
         scrollbar-thumb-[#F7AB0A]/80'>
-            {projects.map((projects, i) =>(
+
                 <div className='w-screen flex-shrink-0 snap-center snap-m
                     flex flex-col space-y-5 items-center justify-center p-20
                     md:p-44 h-screen'>
@@ -36,7 +36,7 @@ function Projects({}: Props) {
                     <div className='space-y-10 px-0 md:px-10 max-w-6xl'>
                         <h4 className='text-4xl font-semibold text-center'>
                             <span className='underline decoration-[#F7AB0A]/50'>
-                            Case Study {i +1} of 5:
+                            Case Study 1 of 5:
                             </span>{" "}
                             UPS clone
                         </h4>
@@ -45,9 +45,64 @@ function Projects({}: Props) {
                             Lorem ipsum dolor sit amet consectetur adipisicing 
                             elit. Ipsum corrupti a dolore numquam atque ea
                         </p>
-                    </div>
+                    </div> 
                 </div>
-            ))}
+
+                {/* TWO */}
+                <div className='w-screen flex-shrink-0 snap-center snap-m
+                    flex flex-col space-y-5 items-center justify-center p-20
+                    md:p-44 h-screen'>
+                    <motion.img
+                        initial={{ y:-300, opacity: 0}}
+                        whileInView={{ opacity: 1, y:0 }}
+                        transition={{ duration: 1.2 }}
+                        viewport={{ once: true}}
+                     src="https://cdn.sanity.io/images/ltuexkre/production/af7ca99b5a796d0698cf9121a4a0795b5022b6be-666x375.png"
+                    alt="" 
+                    />
+
+                    <div className='space-y-10 px-0 md:px-10 max-w-6xl'>
+                        <h4 className='text-4xl font-semibold text-center'>
+                            <span className='underline decoration-[#F7AB0A]/50'>
+                            Case Study 1 of 5:
+                            </span>{" "}
+                            UPS clone
+                        </h4>
+
+                        <p className='text-l text-center md:text-left'>
+                            Lorem ipsum dolor sit amet consectetur adipisicing 
+                            elit. Ipsum corrupti a dolore numquam atque ea
+                        </p>
+                    </div> 
+                </div>
+
+                {/* THREE  */}
+                <div className='w-screen flex-shrink-0 snap-center snap-m
+                    flex flex-col space-y-5 items-center justify-center p-20
+                    md:p-44 h-screen'>
+                    <motion.img
+                        initial={{ y:-300, opacity: 0}}
+                        whileInView={{ opacity: 1, y:0 }}
+                        transition={{ duration: 1.2 }}
+                        viewport={{ once: true}}
+                     src="https://cdn.sanity.io/images/ltuexkre/production/af7ca99b5a796d0698cf9121a4a0795b5022b6be-666x375.png"
+                    alt="" 
+                    />
+
+                    <div className='space-y-10 px-0 md:px-10 max-w-6xl'>
+                        <h4 className='text-4xl font-semibold text-center'>
+                            <span className='underline decoration-[#F7AB0A]/50'>
+                            Case Study 1 of 5:
+                            </span>{" "}
+                            UPS clone
+                        </h4>
+
+                        <p className='text-l text-center md:text-left'>
+                            Lorem ipsum dolor sit amet consectetur adipisicing 
+                            elit. Ipsum corrupti a dolore numquam atque ea
+                        </p>
+                    </div> 
+                </div>         
         </div>
         <div className='w-full absolute top-[30%] bg-[#F7AB0A]/10 left-0 h-[500px]
         -skew-y-12'/>

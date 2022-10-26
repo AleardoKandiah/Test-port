@@ -1,6 +1,8 @@
 import React from 'react'
 import Skill from './Skill'
 import { motion } from 'framer-motion'
+import Skill2 from './Skill2'
+import Skill3 from './Skill3'
 
 type Props = {}
 
@@ -20,22 +22,10 @@ const Skills = (props: Props) => {
             Hover a skill for current procicency
         </h3>
 
-        <div className='grid grid-cols-4 gap-5'>
+        <div className='grid grid-cols-3 gap-5'>
             <Skill/>
-            <Skill/>
-            <Skill/>
-            <Skill/>
-            <Skill/>
-            <Skill/>
-            <Skill/>
-            <Skill/>
-            <Skill/>
-            <Skill/>
-            <Skill/>
-            <Skill/>
-            <Skill/>
-            <Skill/>
-            <Skill/>                        
+            <Skill2/>
+            <Skill3/>
         </div>
     </motion.div>
   )
