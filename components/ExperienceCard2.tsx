@@ -44,7 +44,7 @@ const ExperienceCard2 = (props: Props) => {
                  />    
             </div>
             <p className='uppercase py-3 text-gray-300'>
-               02/2021-04-2022
+               02/2022-04-2022
             </p>
 
             <ul className='list-disc space-y-2 ml-5 text-lg'>
