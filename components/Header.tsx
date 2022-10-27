@@ -28,6 +28,7 @@ export default function Header({}: Props) {
             {/* Social icons */}
             <SocialIcon
             url="https://www.twitter.com/Aleardo21"
+            target="_blank"
             fgColor='gray'
             bgColor='transparent'
             />
@@ -35,6 +36,7 @@ export default function Header({}: Props) {
 
             <SocialIcon
             url="https://www.linkedin.com/in/aleardo-kandiah-504959195/"
+            target="_blank"
             fgColor='gray'
             bgColor='transparent'
             />
@@ -42,6 +44,7 @@ export default function Header({}: Props) {
 
             <SocialIcon
             url="https://github.com/AleardoKandiah"
+            target="_blank"
             fgColor='gray'
             bgColor='transparent'
             />
@@ -49,6 +52,7 @@ export default function Header({}: Props) {
 
             <SocialIcon
             url="https://aleardo.hashnode.dev/towards-medical-artificial-intelligence"
+            target="_blank"
             fgColor='gray'
             bgColor='transparent'
             />
@@ -56,6 +60,7 @@ export default function Header({}: Props) {
 
             <SocialIcon
             url="https://codepen.io/aleardokandiah"
+            target="_blank"
             fgColor='gray'
             bgColor='transparent'
             />
