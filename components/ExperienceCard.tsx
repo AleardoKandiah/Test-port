@@ -24,7 +24,7 @@ export default function ExperienceCard({}: Props) {
 
         <div className='px-0 md:px-10'>
             <h4 className='text-3xl font-light'>Juniour Web Developer</h4>
-            <p className='font-bold text-21xl mt-1'>Immersify Education (Intern)</p>
+            <p className='font-bold text-21xl mt-1'>Internship</p>
             <div className='flex space-x-2 my-2'>
                 <img 
                 className='h-10 w-10 rounded-full'
